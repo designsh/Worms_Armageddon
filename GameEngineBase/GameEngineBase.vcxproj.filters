@@ -118,54 +118,54 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\ThirdParty\Include\Win32\Debug\FMOD\fmod.dll">
+    <None Include="..\ThirdParty\Win32\Debug\FMOD\fmod.dll">
       <Filter>Sound\Lib\x86\Debug</Filter>
     </None>
-    <None Include="..\ThirdParty\Include\Win32\Debug\FMOD\fmodL.dll">
+    <None Include="..\ThirdParty\Win32\Debug\FMOD\fmodL.dll">
       <Filter>Sound\Lib\x86\Debug</Filter>
     </None>
-    <None Include="..\ThirdParty\Include\Win32\Release\FMOD\fmod.dll">
+    <None Include="..\ThirdParty\Win32\Release\FMOD\fmod.dll">
       <Filter>Sound\Lib\x86\Release</Filter>
     </None>
-    <None Include="..\ThirdParty\Include\Win32\Release\FMOD\fmodL.dll">
+    <None Include="..\ThirdParty\Win32\Release\FMOD\fmodL.dll">
       <Filter>Sound\Lib\x86\Release</Filter>
     </None>
-    <None Include="..\ThirdParty\Include\x64\Debug\FMOD\fmod.dll">
+    <None Include="..\ThirdParty\x64\Debug\FMOD\fmod.dll">
       <Filter>Sound\Lib\x64\Debug</Filter>
     </None>
-    <None Include="..\ThirdParty\Include\x64\Debug\FMOD\fmodL.dll">
+    <None Include="..\ThirdParty\x64\Debug\FMOD\fmodL.dll">
       <Filter>Sound\Lib\x64\Debug</Filter>
     </None>
-    <None Include="..\ThirdParty\Include\x64\Release\FMOD\fmod.dll">
+    <None Include="..\ThirdParty\x64\Release\FMOD\fmod.dll">
       <Filter>Sound\Lib\x64\Release</Filter>
     </None>
-    <None Include="..\ThirdParty\Include\x64\Release\FMOD\fmodL.dll">
+    <None Include="..\ThirdParty\x64\Release\FMOD\fmodL.dll">
       <Filter>Sound\Lib\x64\Release</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\ThirdParty\Include\Win32\Debug\FMOD\fmod_vc.lib">
+    <Library Include="..\ThirdParty\Win32\Debug\FMOD\fmod_vc.lib">
       <Filter>Sound\Lib\x86\Debug</Filter>
     </Library>
-    <Library Include="..\ThirdParty\Include\Win32\Debug\FMOD\fmodL_vc.lib">
+    <Library Include="..\ThirdParty\Win32\Debug\FMOD\fmodL_vc.lib">
       <Filter>Sound\Lib\x86\Debug</Filter>
     </Library>
-    <Library Include="..\ThirdParty\Include\Win32\Release\FMOD\fmod_vc.lib">
+    <Library Include="..\ThirdParty\Win32\Release\FMOD\fmod_vc.lib">
       <Filter>Sound\Lib\x86\Release</Filter>
     </Library>
-    <Library Include="..\ThirdParty\Include\Win32\Release\FMOD\fmodL_vc.lib">
+    <Library Include="..\ThirdParty\Win32\Release\FMOD\fmodL_vc.lib">
       <Filter>Sound\Lib\x86\Release</Filter>
     </Library>
-    <Library Include="..\ThirdParty\Include\x64\Debug\FMOD\fmod_vc.lib">
+    <Library Include="..\ThirdParty\x64\Debug\FMOD\fmod_vc.lib">
       <Filter>Sound\Lib\x64\Debug</Filter>
     </Library>
-    <Library Include="..\ThirdParty\Include\x64\Debug\FMOD\fmodL_vc.lib">
+    <Library Include="..\ThirdParty\x64\Debug\FMOD\fmodL_vc.lib">
       <Filter>Sound\Lib\x64\Debug</Filter>
     </Library>
-    <Library Include="..\ThirdParty\Include\x64\Release\FMOD\fmod_vc.lib">
+    <Library Include="..\ThirdParty\x64\Release\FMOD\fmod_vc.lib">
       <Filter>Sound\Lib\x64\Release</Filter>
     </Library>
-    <Library Include="..\ThirdParty\Include\x64\Release\FMOD\fmodL_vc.lib">
+    <Library Include="..\ThirdParty\x64\Release\FMOD\fmodL_vc.lib">
       <Filter>Sound\Lib\x64\Release</Filter>
     </Library>
   </ItemGroup>
