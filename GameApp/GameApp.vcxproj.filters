@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="AppFunc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppFunc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\KeySetting.txt" />
+    <Text Include="에니메이션 호출 함수 예제 코드.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+
+에니메이션 종료시 호출되는 함수를 지정하는 함수
+SetAnimationEndFunction 
+
+사용법
+SetAnimationEndFunction<클레스>("에니메이션 이름", 함수를 가진 객체의 포인터, &클레스::함수명); //
+
+예제
+ex) mainSpriteRender_ ->SetAnimationEndFunction<WaterWave>("Start", this, &WaterWave::Render); //
+
+
+에니메이션의 특정 프레임에 호출되는 함수를 지정하는 함수
+SetAnimationFrameFunction 
+
+사용법
+SetAnimationFrameFunction<클레스>("에니메이션 이름",호출 프레임, 함수를 가진 객체의 포인터, &클레스::함수명); //
+
+예제
+ex) mainSpriteRender_ ->SetAnimationFrameFunction<WaterWave>("Start", 4, this, &WaterWave::Render); //
+
+
+비고 
+GameEngineRenderer 클레스 함수임
+GameEngineRenderer::FrameAnimation::Update() 에서 실행됨

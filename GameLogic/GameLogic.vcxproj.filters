@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Level">
+      <UniqueIdentifier>{2bdfad18-e6b7-4b5b-a574-e980b588103d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor">
+      <UniqueIdentifier>{caf75e45-55cb-4acc-9869-b8b9c4ab8060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enum">
+      <UniqueIdentifier>{ca96aba4-b18b-422d-a995-b9a91e6eaf2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\TitleLevel">
+      <UniqueIdentifier>{9f1540b3-2861-473d-a6e6-871fbdf9430b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\LobbyLevel">
+      <UniqueIdentifier>{c8e9a024-d862-498d-bfc8-9c7b9ab1bf43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel">
+      <UniqueIdentifier>{bfc3f820-fa47-4b86-8929-20c53951cbfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\UI">
+      <UniqueIdentifier>{ccefebcf-b231-4c5d-83e0-40c3da3a58fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\Background">
+      <UniqueIdentifier>{45caa6aa-6a80-4f03-b04e-2e2941882894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\Effect">
+      <UniqueIdentifier>{69f89989-73f7-4bca-a3e9-e400a91cc847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Mouse">
+      <UniqueIdentifier>{23215ac4-852a-4709-a9fe-fe46da056843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\UI\Controller">
+      <UniqueIdentifier>{53203308-5d0e-4dce-a11d-6a1b4d69204a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Effect">
+      <UniqueIdentifier>{a6515c33-f7df-48b3-833b-94ee274ea89b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Effect\01. EffectActor">
+      <UniqueIdentifier>{16d22a7e-5b67-4168-a5d4-434f633993a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Effect\01. EffectActor\Circle">
+      <UniqueIdentifier>{b98effd3-a5a9-4e5c-bf4b-673c92203b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Effect\01. EffectActor\Elipse">
+      <UniqueIdentifier>{31299e6f-b18d-47a5-9b1d-04367eb6ade1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Effect\01. EffectActor\Flame">
+      <UniqueIdentifier>{c961afde-e5e5-43b2-aa5f-02a1432f4d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Effect\01. EffectActor\Smkdrk">
+      <UniqueIdentifier>{51964ce9-8a5e-4f5f-982d-a1212d84f4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Effect\01. EffectActor\Smkit">
+      <UniqueIdentifier>{a20ecfa7-dfd0-426a-a2cc-b6a881a9453c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Effect\02. EffectBundleActor">
+      <UniqueIdentifier>{4f80e2e2-f00f-431c-9283-b18dc47afde8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Effect\02. EffectBundleActor\Explosion">
+      <UniqueIdentifier>{2a87addd-d575-4183-b412-a2ae74c22fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\Map">
+      <UniqueIdentifier>{06f99db7-cf17-4e7d-88b5-e61f5dcbe075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\_Backup">
+      <UniqueIdentifier>{6c25d0ca-4418-4762-a878-5c79360246df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level\Global">
+      <UniqueIdentifier>{4ed8676a-7913-4c12-8eb3-f56a804afb49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\Player">
+      <UniqueIdentifier>{6121f2d6-25c9-4831-96c5-2d2bf394ff4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\UI\Weapon">
+      <UniqueIdentifier>{c4c4a74e-3188-4024-a912-183e94d51c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\Player\Weapon">
+      <UniqueIdentifier>{47596216-ec55-49cf-b61f-f569b05fa724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\GimmickObject">
+      <UniqueIdentifier>{8903fba7-76ed-4e64-b496-0bebbdadcf07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\UI\HUD">
+      <UniqueIdentifier>{26491221-002c-470a-912c-c80424b3404d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\MenuSelectLevel">
+      <UniqueIdentifier>{77bda3dc-c455-47a2-9fec-66a1ce7021a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\LobbyLevel\UI">
+      <UniqueIdentifier>{b6305556-e818-4fca-9e1e-d8d77269d367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\LobbyLevel\UI\Chatting">
+      <UniqueIdentifier>{ebf9e9ec-def2-4de4-bbe9-35e535daf5ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\LobbyLevel\UI\Button">
+      <UniqueIdentifier>{1a511075-59a9-4ec3-8221-4faab3936da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\LobbyLevel\UI\Image">
+      <UniqueIdentifier>{88a180ef-d046-4f00-968c-5317f8588f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\LobbyLevel\LoadingLevel">
+      <UniqueIdentifier>{d6236c91-4435-4f64-8223-421c3e519f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Effect\01. EffectActor\ex">
+      <UniqueIdentifier>{4863a8ed-7701-4f32-be55-be03c3ef4add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\LobbyLevel\UI\OptionSet">
+      <UniqueIdentifier>{c0f42150-73c3-4ebf-9369-9fcc8ebfbcb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\LobbyLevel\UI\OptionSet\OptionInfo">
+      <UniqueIdentifier>{bf4e5a30-c6ab-448a-9ffe-6889fa740f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\LobbyLevel\UI\OptionSet\BasicOption">
+      <UniqueIdentifier>{5484d705-3412-4b85-a2fd-2abf3697824d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\LobbyLevel\UI\Host">
+      <UniqueIdentifier>{5c642819-93df-45cb-9810-780723c3d54d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\LobbyLevel\UI\SelectMap">
+      <UniqueIdentifier>{564f797d-cb67-4d84-8c3d-3b303ce40a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\LobbyLevel\UI\Team">
+      <UniqueIdentifier>{de6d81b7-2236-40e1-92b4-cef27ff88aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\UI\HUD\Wind">
+      <UniqueIdentifier>{94607dea-9917-44ef-86f6-e24e98e09751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\UI\HUD\PersonalHUD">
+      <UniqueIdentifier>{af2a7b4f-2079-4ed8-a252-1dce1a300985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\UI\HUD\Timer">
+      <UniqueIdentifier>{38c716ec-563a-4c5e-ada7-f8fc7c5ab565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Effect\01. EffectActor\kamismk">
+      <UniqueIdentifier>{1d0c178a-5618-4307-8c17-7241f3b74c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\UI\WormStateUI">
+      <UniqueIdentifier>{5900260c-4cad-414c-91dd-5326f656a871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\UI\WormStateUI\BottomState">
+      <UniqueIdentifier>{d7bf9dda-a162-47fc-884f-ee27dbb59690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\UI\WormStateUI\TopState">
+      <UniqueIdentifier>{0923b639-514f-4568-bb0a-d930eefb170e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\PlayLevel\Water">
+      <UniqueIdentifier>{da4556a8-b00a-4787-be4b-3e7f4153e821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\EndingLevel">
+      <UniqueIdentifier>{c1a81d2d-5484-411e-8dae-8ba6301abbf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\EndingLevel\EndingImage">
+      <UniqueIdentifier>{cc5fa946-d604-462f-9232-614a58da8070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\EndingLevel\EndingText">
+      <UniqueIdentifier>{1d068459-6bc8-4cad-a9ac-e6ee67376cc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="eCollisionGroup.h">
+      <Filter>Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleImage.h">
+      <Filter>Actor\TitleLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyImage.h">
+      <Filter>Actor\LobbyLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingImage.h">
+      <Filter>Actor\LobbyLevel\LoadingLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="eCollisionCheckColor.h">
+      <Filter>Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundScatter.h">
+      <Filter>Actor\PlayLevel\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Actor\PlayLevel\UI\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="eItemList.h">
+      <Filter>Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="WindController.h">
+      <Filter>Actor\PlayLevel\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterWave.h">
+      <Filter>Actor\PlayLevel\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="UnderWater.h">
+      <Filter>Actor\PlayLevel\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterLevel.h">
+      <Filter>Actor\PlayLevel\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectSmklt.h">
+      <Filter>Actor\Effect\01. EffectActor\Smkit</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectSmkdrk.h">
+      <Filter>Actor\Effect\01. EffectActor\Smkdrk</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectFlame.h">
+      <Filter>Actor\Effect\01. EffectActor\Flame</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectElipse.h">
+      <Filter>Actor\Effect\01. EffectActor\Elipse</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectCircle.h">
+      <Filter>Actor\Effect\01. EffectActor\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionSize.h">
+      <Filter>Actor\Effect\02. EffectBundleActor\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectActor.h">
+      <Filter>Actor\Effect\01. EffectActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Midground.h">
+      <Filter>Actor\PlayLevel\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponIcon.h">
+      <Filter>Actor\PlayLevel\UI\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponSheet.h">
+      <Filter>Actor\PlayLevel\UI\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseObject.h">
+      <Filter>Actor\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="UIController.h">
+      <Filter>Actor\PlayLevel\UI\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTrain.h">
+      <Filter>Actor\PlayLevel\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Worm.h">
+      <Filter>Actor\PlayLevel\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="TestActor.h">
+      <Filter>Actor\_Backup</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeObject.h">
+      <Filter>Actor\_Backup</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalValue.h">
+      <Filter>Level\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="DrumActor.h">
+      <Filter>Actor\PlayLevel\GimmickObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Petroleum.h">
+      <Filter>Actor\PlayLevel\GimmickObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Actor\PlayLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Bazooka.h">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponBase.h">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="FirePunch.h">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud.h">
+      <Filter>Actor\PlayLevel\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSelectLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSelBackDrop.h">
+      <Filter>Actor\MenuSelectLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSelImage.h">
+      <Filter>Actor\MenuSelectLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="HomingMissile.h">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="UziBullet.h">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="ChattingInput.h">
+      <Filter>Actor\LobbyLevel\UI\Chatting</Filter>
+    </ClInclude>
+    <ClInclude Include="ChattingHistory.h">
+      <Filter>Actor\LobbyLevel\UI\Chatting</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyStartButton.h">
+      <Filter>Actor\LobbyLevel\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Uzi.h">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyExitButton.h">
+      <Filter>Actor\LobbyLevel\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOptionSet.h">
+      <Filter>Actor\LobbyLevel\UI\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponOptionSet.h">
+      <Filter>Actor\LobbyLevel\UI\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGroundGradation.h">
+      <Filter>Actor\PlayLevel\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Sheep.h">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperSheep.h">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Effectex.h">
+      <Filter>Actor\Effect\01. EffectActor\ex</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyTernTimeSet.h">
+      <Filter>Actor\LobbyLevel\UI\OptionSet\BasicOption</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOptionInfo.h">
+      <Filter>Actor\LobbyLevel\UI\OptionSet\OptionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyRoundTimeSet.h">
+      <Filter>Actor\LobbyLevel\UI\OptionSet\BasicOption</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyWinsreQuiredSet.h">
+      <Filter>Actor\LobbyLevel\UI\OptionSet\BasicOption</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyWormSelectSet.h">
+      <Filter>Actor\LobbyLevel\UI\OptionSet\BasicOption</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyWormEnergySet.h">
+      <Filter>Actor\LobbyLevel\UI\OptionSet\BasicOption</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyTeleportinSet.h">
+      <Filter>Actor\LobbyLevel\UI\OptionSet\BasicOption</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleAxe.h">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Girder.h">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyScatter.h">
+      <Filter>Actor\PlayLevel\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyHost.h">
+      <Filter>Actor\LobbyLevel\UI\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbySelectMapImage.h">
+      <Filter>Actor\LobbyLevel\UI\SelectMap</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyCreateTeam.h">
+      <Filter>Actor\LobbyLevel\UI\Team</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbySelectablePlayer.h">
+      <Filter>Actor\LobbyLevel\UI\Team</Filter>
+    </ClInclude>
+    <ClInclude Include="WindBar.h">
+      <Filter>Actor\PlayLevel\UI\HUD\Wind</Filter>
+    </ClInclude>
+    <ClInclude Include="WindBarBlank.h">
+      <Filter>Actor\PlayLevel\UI\HUD\Wind</Filter>
+    </ClInclude>
+    <ClInclude Include="WindBarHider.h">
+      <Filter>Actor\PlayLevel\UI\HUD\Wind</Filter>
+    </ClInclude>
+    <ClInclude Include="BottomFlag.h">
+      <Filter>Actor\PlayLevel\UI\HUD\PersonalHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="BottomHealthBar.h">
+      <Filter>Actor\PlayLevel\UI\HUD\PersonalHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="BottomNameTag.h">
+      <Filter>Actor\PlayLevel\UI\HUD\PersonalHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="WormArrow.h">
+      <Filter>Actor\PlayLevel\UI\HUD\PersonalHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="WormName.h">
+      <Filter>Actor\PlayLevel\UI\HUD\PersonalHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerBlankWindow.h">
+      <Filter>Actor\PlayLevel\UI\HUD\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerDigit.h">
+      <Filter>Actor\PlayLevel\UI\HUD\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>Actor\PlayLevel\UI\HUD\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="WormHPBlankWindow.h">
+      <Filter>Actor\PlayLevel\UI\HUD\PersonalHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="WormHPNumber.h">
+      <Filter>Actor\PlayLevel\UI\HUD\PersonalHUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Effectkamismk.h">
+      <Filter>Actor\Effect\01. EffectActor\kamismk</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Actor\Effect\02. EffectBundleActor\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="BottomStateUI.h">
+      <Filter>Actor\PlayLevel\UI\WormStateUI\BottomState</Filter>
+    </ClInclude>
+    <ClInclude Include="WormTopStateUI.h">
+      <Filter>Actor\PlayLevel\UI\WormStateUI\TopState</Filter>
+    </ClInclude>
+    <ClInclude Include="TopHPText.h">
+      <Filter>Actor\PlayLevel\UI\WormStateUI\TopState</Filter>
+    </ClInclude>
+    <ClInclude Include="AirStrike.h">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingImage.h">
+      <Filter>Actor\EndingLevel\EndingImage</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingText.h">
+      <Filter>Actor\EndingLevel\EndingText</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingFade.h">
+      <Filter>Actor\EndingLevel\EndingImage</Filter>
+    </ClInclude>
+    <ClInclude Include="AirStrikeBullet.h">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Aim.h" />
+      <ClInclude Include="Grave.h">
+      <Filter>Actor\PlayLevel\GimmickObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleImage.cpp">
+      <Filter>Actor\TitleLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyImage.cpp">
+      <Filter>Actor\LobbyLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingImage.cpp">
+      <Filter>Actor\LobbyLevel\LoadingLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundScatter.cpp">
+      <Filter>Actor\PlayLevel\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="WindController.cpp">
+      <Filter>Actor\PlayLevel\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Actor\PlayLevel\UI\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="UnderWater.cpp">
+      <Filter>Actor\PlayLevel\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterLevel.cpp">
+      <Filter>Actor\PlayLevel\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterWave.cpp">
+      <Filter>Actor\PlayLevel\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectSmklt.cpp">
+      <Filter>Actor\Effect\01. EffectActor\Smkit</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectSmkdrk.cpp">
+      <Filter>Actor\Effect\01. EffectActor\Smkdrk</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectFlame.cpp">
+      <Filter>Actor\Effect\01. EffectActor\Flame</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectElipse.cpp">
+      <Filter>Actor\Effect\01. EffectActor\Elipse</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectCircle.cpp">
+      <Filter>Actor\Effect\01. EffectActor\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionSize.cpp">
+      <Filter>Actor\Effect\02. EffectBundleActor\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectActor.cpp">
+      <Filter>Actor\Effect\01. EffectActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Midground.cpp">
+      <Filter>Actor\PlayLevel\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponIcon.cpp">
+      <Filter>Actor\PlayLevel\UI\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponSheet.cpp">
+      <Filter>Actor\PlayLevel\UI\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseObject.cpp">
+      <Filter>Actor\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="UIController.cpp">
+      <Filter>Actor\PlayLevel\UI\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTrain.cpp">
+      <Filter>Actor\PlayLevel\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Worm.cpp">
+      <Filter>Actor\PlayLevel\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeObject.cpp">
+      <Filter>Actor\_Backup</Filter>
+    </ClCompile>
+    <ClCompile Include="TestActor.cpp">
+      <Filter>Actor\_Backup</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalValue.cpp">
+      <Filter>Level\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Actor\PlayLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Bazooka.cpp">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponBase.cpp">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="DrumActor.cpp">
+      <Filter>Actor\PlayLevel\GimmickObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Petroleum.cpp">
+      <Filter>Actor\PlayLevel\GimmickObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FirePunch.cpp">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloud.cpp">
+      <Filter>Actor\PlayLevel\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuSelectLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuSelBackDrop.cpp">
+      <Filter>Actor\MenuSelectLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuSelImage.cpp">
+      <Filter>Actor\MenuSelectLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="HomingMissile.cpp">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="UziBullet.cpp">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="ChattingInput.cpp">
+      <Filter>Actor\LobbyLevel\UI\Chatting</Filter>
+    </ClCompile>
+    <ClCompile Include="ChattingHistory.cpp">
+      <Filter>Actor\LobbyLevel\UI\Chatting</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyStartButton.cpp">
+      <Filter>Actor\LobbyLevel\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Uzi.cpp">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGroundGradation.cpp">
+      <Filter>Actor\PlayLevel\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyExitButton.cpp">
+      <Filter>Actor\LobbyLevel\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOptionSet.cpp">
+      <Filter>Actor\LobbyLevel\UI\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponOptionSet.cpp">
+      <Filter>Actor\LobbyLevel\UI\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Sheep.cpp">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperSheep.cpp">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Effectex.cpp">
+      <Filter>Actor\Effect\01. EffectActor\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyTernTimeSet.cpp">
+      <Filter>Actor\LobbyLevel\UI\OptionSet\BasicOption</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOptionInfo.cpp">
+      <Filter>Actor\LobbyLevel\UI\OptionSet\OptionInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyRoundTimeSet.cpp">
+      <Filter>Actor\LobbyLevel\UI\OptionSet\BasicOption</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyWinsreQuiredSet.cpp">
+      <Filter>Actor\LobbyLevel\UI\OptionSet\BasicOption</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyWormSelectSet.cpp">
+      <Filter>Actor\LobbyLevel\UI\OptionSet\BasicOption</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyWormEnergySet.cpp">
+      <Filter>Actor\LobbyLevel\UI\OptionSet\BasicOption</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyTeleportinSet.cpp">
+      <Filter>Actor\LobbyLevel\UI\OptionSet\BasicOption</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleAxe.cpp">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Girder.cpp">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyScatter.cpp">
+      <Filter>Actor\PlayLevel\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyHost.cpp">
+      <Filter>Actor\LobbyLevel\UI\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbySelectMapImage.cpp">
+      <Filter>Actor\LobbyLevel\UI\SelectMap</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyCreateTeam.cpp">
+      <Filter>Actor\LobbyLevel\UI\Team</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbySelectablePlayer.cpp">
+      <Filter>Actor\LobbyLevel\UI\Team</Filter>
+    </ClCompile>
+    <ClCompile Include="WindBar.cpp">
+      <Filter>Actor\PlayLevel\UI\HUD\Wind</Filter>
+    </ClCompile>
+    <ClCompile Include="WindBarBlank.cpp">
+      <Filter>Actor\PlayLevel\UI\HUD\Wind</Filter>
+    </ClCompile>
+    <ClCompile Include="WindBarHider.cpp">
+      <Filter>Actor\PlayLevel\UI\HUD\Wind</Filter>
+    </ClCompile>
+    <ClCompile Include="BottomFlag.cpp">
+      <Filter>Actor\PlayLevel\UI\HUD\PersonalHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="BottomHealthBar.cpp">
+      <Filter>Actor\PlayLevel\UI\HUD\PersonalHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="BottomNameTag.cpp">
+      <Filter>Actor\PlayLevel\UI\HUD\PersonalHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="WormArrow.cpp">
+      <Filter>Actor\PlayLevel\UI\HUD\PersonalHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="WormName.cpp">
+      <Filter>Actor\PlayLevel\UI\HUD\PersonalHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerBlankWindow.cpp">
+      <Filter>Actor\PlayLevel\UI\HUD\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerDigit.cpp">
+      <Filter>Actor\PlayLevel\UI\HUD\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>Actor\PlayLevel\UI\HUD\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="WormHPBlankWindow.cpp">
+      <Filter>Actor\PlayLevel\UI\HUD\PersonalHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Effectkamismk.cpp">
+      <Filter>Actor\Effect\01. EffectActor\kamismk</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Actor\Effect\02. EffectBundleActor\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="WormHPNumber.cpp">
+      <Filter>Actor\PlayLevel\UI\HUD\PersonalHUD</Filter>
+    </ClCompile>
+    <ClCompile Include="BottomStateUI.cpp">
+      <Filter>Actor\PlayLevel\UI\WormStateUI\BottomState</Filter>
+    </ClCompile>
+    <ClCompile Include="WormTopStateUI.cpp">
+      <Filter>Actor\PlayLevel\UI\WormStateUI\TopState</Filter>
+    </ClCompile>
+    <ClCompile Include="TopHPText.cpp">
+      <Filter>Actor\PlayLevel\UI\WormStateUI\TopState</Filter>
+    </ClCompile>
+    <ClCompile Include="AirStrike.cpp">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingImage.cpp">
+      <Filter>Actor\EndingLevel\EndingImage</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingText.cpp">
+      <Filter>Actor\EndingLevel\EndingText</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingFade.cpp">
+      <Filter>Actor\EndingLevel\EndingImage</Filter>
+    </ClCompile>
+    <ClCompile Include="AirStrikeBullet.cpp">
+      <Filter>Actor\PlayLevel\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Aim.cpp" />
+        <ClCompile Include="Grave.cpp">
+      <Filter>Actor\PlayLevel\GimmickObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="UIController사용법.txt">
+      <Filter>Actor\PlayLevel\UI\Controller</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

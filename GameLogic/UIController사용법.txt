@@ -1,0 +1,27 @@
+1. 플레이어는 UIController를 객체로 가진다. 
+	단, 해당 UI제어기를 생성한 플레이어는 UI제어기에 자신이 생성한 UI제어기인지 알려야한다.
+		UIController* CurUIController = CreateActor<UIController>();
+		CurUIController->SetCurPlayer(Worm_);
+
+2. 무기목록 생성 및 관리(모든 무기관련은 UIController가 처리한다)
+	1) 플레이어가 초기에 가져야하는 무기목록을 지정한다
+		단, 모든 무기아이콘은 비활성화 상태로 생성된다.
+		그러므로 초기 무기목록을 생성해서 지정한다.
+			std::vector<eItemList> ItemListTest;
+			ItemListTest.resize(2);
+			ItemListTest[0] = eItemList::WEAPON_BAZOOKA;
+			ItemListTest[1] = eItemList::WEAPON_HOMINGMISSILE;
+			CurUIController->CreateWeaponList(ItemListTest);
+
+	2) 기믹오브젝트를 획득했을때 무기를 획득한다면 해당 함수 호출
+			CurUIController->AddWeapon(eItemList::WEAPON_AIRSTRIKE);
+
+	3) 무기사용했을때 해당 함수 호출
+			CurUIController->UseWeapon(eItemList::WEAPON_AIRSTRIKE);
+
+3. 현재 선택된 무기 전달방법 고민중...
+    1) 플레이어가 현재 선택된 무기를 가지고있는다?
+	     : 이거는 플레이어가 SetCurWeapon() 함수를 제공해서 마우스가 현재플레이어에게 전달해서 바로 사용가능
+	2) UIController가 현재 선택된 무기를 가지고있는다?
+		: 이거는 UIController가 현재 선택된 무기를 가지고있고, 플레이어가 이거를 체크해서 상태전환해야함
+	

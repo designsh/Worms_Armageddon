@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GameEngineBase\GameEngineBase.vcxproj">
+      <Project>{963aea7d-8a59-426b-ab7e-15fc9e3df722}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\GameEngine\GameEngine.vcxproj">
+      <Project>{bfb6f7a8-87e3-4719-8b62-2aeeec498634}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aim.h" />
+    <ClInclude Include="AirStrike.h" />
+    <ClInclude Include="AirStrikeBullet.h" />
+    <ClInclude Include="BackGroundGradation.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="BattleAxe.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Bazooka.h" />
+    <ClInclude Include="BottomStateUI.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ChattingHistory.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Cloud.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Effectex.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EndingFade.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EndingImage.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EndingLevel.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EndingText.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="FirePunch.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="GameOptionInfo.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="GameOptionSet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Girder.h" />
+    <ClInclude Include="GlobalValue.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Grave.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="HomingMissile.h" />
+    <ClInclude Include="ChattingInput.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Effectkamismk.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LobbyCreateTeam.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LobbyExitButton.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LobbyHost.h" />
+    <ClInclude Include="LobbyRoundTimeSet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LobbySelectablePlayer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LobbyScatter.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LobbySelectMapImage.h" />
+    <ClInclude Include="LobbyStartButton.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LobbyTeleportinSet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LobbyTernTimeSet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LobbyWinsreQuiredSet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LobbyWormEnergySet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LobbyWormSelectSet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MenuSelBackDrop.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MenuSelectLevel.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MenuSelImage.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Midground.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="BackgroundScatter.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="BottomFlag.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="BottomHealthBar.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="BottomNameTag.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EffectActor.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="EffectCircle.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="DrumActor.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="eCollisionGroup.h" />
+    <ClInclude Include="eItemList.h" />
+    <ClInclude Include="EffectElipse.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ExplosionSize.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="FadeObject.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EffectFlame.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LoadingImage.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LoadingLevel.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LobbyImage.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LobbyLevel.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MapTrain.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MouseObject.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Petroleum.h" />
+    <ClInclude Include="PlayLevel.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EffectSmkdrk.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EffectSmklt.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Sheep.h" />
+    <ClInclude Include="SuperSheep.h" />
+    <ClInclude Include="TestActor.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TestLevel.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TimerBlankWindow.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TimerDigit.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TitleImage.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TitleLevel.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TopHPText.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="UIController.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Uzi.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="UziBullet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="WeaponBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="WeaponIcon.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="UnderWater.h" />
+    <ClInclude Include="WaterLevel.h" />
+    <ClInclude Include="WaterWave.h" />
+    <ClInclude Include="WeaponOptionSet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="WeaponSheet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="WindBar.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="WindBarBlank.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="WindBarHider.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="WindController.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Worm.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="eCollisionCheckColor.h" />
+    <ClInclude Include="WormArrow.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="WormHPBlankWindow.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="WormHPNumber.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="WormName.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="WormTopStateUI.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Aim.cpp" />
+    <ClCompile Include="AirStrike.cpp" />
+    <ClCompile Include="AirStrikeBullet.cpp" />
+    <ClCompile Include="BackGroundGradation.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="BattleAxe.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Bazooka.cpp" />
+    <ClCompile Include="BottomStateUI.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ChattingHistory.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Cloud.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Effectex.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EndingFade.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EndingImage.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EndingLevel.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EndingText.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="FirePunch.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="GameOptionInfo.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="GameOptionSet.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Girder.cpp" />
+    <ClCompile Include="GlobalValue.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Grave.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="HomingMissile.cpp" />
+    <ClCompile Include="ChattingInput.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Effectkamismk.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LobbyCreateTeam.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LobbyExitButton.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LobbyHost.cpp" />
+    <ClCompile Include="LobbyRoundTimeSet.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LobbyScatter.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LobbySelectablePlayer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LobbySelectMapImage.cpp" />
+    <ClCompile Include="LobbyStartButton.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LobbyTeleportinSet.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LobbyTernTimeSet.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LobbyWinsreQuiredSet.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LobbyWormEnergySet.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LobbyWormSelectSet.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="MenuSelBackDrop.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="MenuSelectLevel.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="MenuSelImage.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Midground.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="BackgroundScatter.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="BottomFlag.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="BottomHealthBar.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="BottomNameTag.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EffectActor.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="EffectCircle.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="DrumActor.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EffectElipse.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ExplosionSize.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="FadeObject.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EffectFlame.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LoadingImage.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LoadingLevel.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LobbyImage.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LobbyLevel.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="MapTrain.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="MouseObject.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Petroleum.cpp" />
+    <ClCompile Include="PlayLevel.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EffectSmkdrk.cpp" />
+    <ClCompile Include="EffectSmklt.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Sheep.cpp" />
+    <ClCompile Include="SuperSheep.cpp" />
+    <ClCompile Include="TestActor.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TestLevel.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TimerBlankWindow.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TimerDigit.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TitleImage.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TitleLevel.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TopHPText.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="UIController.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Uzi.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="UziBullet.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="WeaponBase.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="WeaponIcon.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="UnderWater.cpp" />
+    <ClCompile Include="WaterLevel.cpp" />
+    <ClCompile Include="WaterWave.cpp" />
+    <ClCompile Include="WeaponOptionSet.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="WeaponSheet.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="WindBar.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="WindBarBlank.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="WindBarHider.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="WindController.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Worm.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="WormArrow.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="WormHPBlankWindow.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="WormHPNumber.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="WormName.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="WormTopStateUI.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="UIController사용법.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ccf90855-4e7b-4240-a05e-645a3142b6f9}</ProjectGuid>
+    <RootNamespace>GameLogic</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IncludePath>..\ThirdParty\Include\;..\GameEngine\;..\GameEngineBase\;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>$(SolutionDir)ThirdParty\$(Platform)\$(Configuration)\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IncludePath>..\ThirdParty\Include\;..\GameEngine\;..\GameEngineBase\;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>$(SolutionDir)ThirdParty\$(Platform)\$(Configuration)\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IncludePath>..\ThirdParty\Include\;..\GameEngine\;..\GameEngineBase\;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>$(SolutionDir)ThirdParty\$(Platform)\$(Configuration)\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IncludePath>..\ThirdParty\Include\;..\GameEngine\;..\GameEngineBase\;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>$(SolutionDir)ThirdParty\$(Platform)\$(Configuration)\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
