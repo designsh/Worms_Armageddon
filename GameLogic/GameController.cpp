@@ -365,7 +365,7 @@ void GameController::CreateWorm(const float _minX, const float _maxX)
 
 	xPosList_.push_back(wormXPosContainer_);
 	wormList_[0]->SetFocus(true);
-	prevwormSize_ = wormList_.size();
+	prevwormSize_ = static_cast<int>(wormList_.size());
 	currentWorm_ = wormList_[0];
 }
 

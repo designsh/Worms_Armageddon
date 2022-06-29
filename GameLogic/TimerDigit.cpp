@@ -75,7 +75,7 @@ void TimerDigit::Render()
 
 void TimerDigit::SetTenDigitTime(float _time)
 {
-	int remain = _time / 10;
+	int remain = static_cast<int>(_time) / 10;
 
 	mainRender_->ChangeAnimation(std::to_string(remain));
 }

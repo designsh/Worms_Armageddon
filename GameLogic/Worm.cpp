@@ -1286,7 +1286,7 @@ StateInfo Worm::StartHit(StateInfo _state)
 
 	WindSpeed_ = GetLevel<PlayLevel>()->GetGameController()->GetWindController()->GetCurrentWindSpeed();
 	//DamageAccRessit_ = DamageAcc_ / 10.f;
-	DamageAcc_ = bound_;
+	DamageAcc_ = static_cast<float>(bound_);
 
 	if (bLeft_)
 	{
